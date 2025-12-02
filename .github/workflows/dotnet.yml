@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build BlazorRedo/BlazorRedo.csproj --no-restore
     - name: Test
-      run: dotnet test ApiAiBlazorLab.Tests/ApiAiBlazorLab.Tests.csproj --no-build --verbosity normal
+      run: dotnet test ApiAiBlazorLab.Tests/ApiAiBlazorLab.Tests.csproj --verbosity normal
